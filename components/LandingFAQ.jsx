@@ -10,7 +10,7 @@ const LandingFAQ = () => {
             <div className="faq-title">
                 <h2>الاسئلة الشائعة</h2>
                 <p>اسئلة شائعة من متابعين صفحة المدرسة الحكومية الالكترونية.</p>
-                <a href="#" className="faq-question">ماهي المدرسة الحكومية الالكترونية ؟</a>
+                <a href="#firstFAQ" className="faq-question">ماهي المدرسة الحكومية الالكترونية ؟</a>
             </div>
           </div>
       </div>

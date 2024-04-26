@@ -22,7 +22,7 @@ const FaqQuestion = () => {
     <>
     <div className="frequent-question" ref={faqQuestionScoop}>
         <div className="container">
-            <div className="box">
+            <div className="box" id='firstFAQ'>
                 <h3>ماهي المدرسة الحكومية الالكترونية ؟</h3>
                 <p>المدرسة الحكومية الألكترونية هي مدرسة افتراضية أنشأت من قبل وزارة التربية العراقية وفقا لنظام المدارس الأبتدائية رقم (30) لسنة 1978 ونظام المدارس الثانوية رقم (2) لسنة 1977 بأستثناء تعليمات الأبنية المدرسية والتعليمات الحضورية.</p>
             </div>
