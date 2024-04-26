@@ -33,8 +33,8 @@ const Footer = () => {
                   <div className="four footer-boxes">
                       <h4 className="footer-title">تطبيق المدرسة الاكترونية</h4>
                       <div className="app">
-                          <div><a target="_blank" href="https://apps.apple.com/us/app/%D8%A7%D9%84%D9%85%D8%AF%D8%B1%D8%B3%D8%A9-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9/id6447380744"><Image src={imageTwo} width={150} height={45} priority = {false} alt='Image Not Found'/></a></div>
-                          <div><a target="_blank" href="https://play.google.com/store/apps/details?id=com.creative.eschool"><Image src={imageThree} width={150} height={45} priority = {false} alt='Image Not Found'/></a></div>
+                          <div><a target="_blank" href="https://apps.apple.com/us/app/%D8%A7%D9%84%D9%85%D8%AF%D8%B1%D8%B3%D8%A9-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9/id6447380744"><Image src={imageTwo} width={150} height={45} alt='Image Not Found'/></a></div>
+                          <div><a target="_blank" href="https://play.google.com/store/apps/details?id=com.creative.eschool"><Image src={imageThree} width={150} height={45} alt='Image Not Found'/></a></div>
                       </div>
                   </div>
               </div>

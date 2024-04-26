@@ -184,7 +184,7 @@ const InstructionRuls = () => {
                         <div className="information">
                             <h4 style={newStyle}>{myDataThree[indexThree].title}</h4>
                             <p>- {myDataThree[indexThree].des}</p>
-                            <Image src={myDataThree[indexThree].img} alt='Image Not Found' height={180}/>
+                            <Image src={myDataThree[indexThree].img} alt='Image Not Found' height={180} width = {'auto'} />
                         </div>
                         <div className="previous" onClick={() => nextThree()}>&gt;</div>
                     </div>

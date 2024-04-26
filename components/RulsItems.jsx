@@ -34,28 +34,28 @@ const RulsItems = () => {
       <div className="container">
           <div className='items-container' id='item' ref={rulsScoop}>
               <div className="item-one">
-                <Image src={inst_image_one} alt='Image Not Found'/>
+                <Image src={inst_image_one} alt='Image Not Found' height = {370} width = {370}/>
               </div>
               <div className="item-one">
-                <Image src={inst_image_two} alt='Image Not Found'/>
+                <Image src={inst_image_two} alt='Image Not Found' height = {370} width = {370}/>
               </div>
               <div className="item-one">
-                <Image src={inst_image_three} alt='Image Not Found'/>
+                <Image src={inst_image_three} alt='Image Not Found' height = {370} width = {370}/>
               </div>
               <div className="item-one">
-                <Image src={inst_image_four} alt='Image Not Found'/>
+                <Image src={inst_image_four} alt='Image Not Found' height = {370} width = {370}/>
               </div>
               <div className="item-one">
-                <Image src={inst_image_five} alt='Image Not Found'/>
+                <Image src={inst_image_five} alt='Image Not Found' height = {370} width = {370}/>
               </div>
               <div className="item-one">
-                <Image src={inst_image_six} alt='Image Not Found'/>
+                <Image src={inst_image_six} alt='Image Not Found' height = {370} width = {370}/>
               </div>
               <div className="item-one">
-                <Image src={inst_image_seven} alt='Image Not Found'/>
+                <Image src={inst_image_seven} alt='Image Not Found' height = {370} width = {370}/>
               </div>
               <div className="item-one">
-                <Image src={inst_image_eight} alt='Image Not Found'/>
+                <Image src={inst_image_eight} alt='Image Not Found' height = {370} width = {370}/>
               </div>
           </div>
       </div>
