@@ -9,7 +9,7 @@ const MobileNav = ({specificStyle, newStyle, handelMobile}) => {
         <ul>
           <li className="flex-center"><Link href={'/'}>الصفحة الرئيسية</Link></li>
           <li className="flex-center"><Link href={'/ruls'}>الانتساب</Link></li>
-          <li className="flex-center"><Link href={'#'}>أتصل بنا</Link></li>
+          <li className="flex-center"><Link href={'#footer'}>أتصل بنا</Link></li>
           <li className="flex-center"><Link href={'/instruction'}>ضوابط وشروط التسجيل</Link></li>
           <li className="flex-center"><Link href={'/faq'}>الاسئلة الشائعة</Link></li>
         </ul>

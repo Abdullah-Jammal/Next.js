@@ -188,7 +188,7 @@ nav ul li {
 
 /* Start Main Landing Page */
 .landing-container {
-  height: 100vh;
+  height: 100dvh;
   position: relative;
 }
 .specialHrefTag {
@@ -278,14 +278,6 @@ nav ul li {
 .landing-image {
   margin-top: 50px;
 }
-/* @media (max-width : 700px) {
-  .landing-info {
-    margin-top: 0;
-  }
-  .landing-image {
-    margin-top: 0;
-  }
-} */
 @media (max-width: 1090px) {
   .landing-image {
     display: none;
@@ -492,6 +484,16 @@ nav ul li {
     margin-top: 20px;
   }
 }
+@media (max-width : 400px) {
+  .goal-right .one {
+    max-width: 270px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 /* End Goals */
 
 /* Start MSG */
@@ -575,9 +577,9 @@ nav ul li {
   opacity: 0;
   scale: 0;
 }
-@media (max-width : 350px) {
+@media (max-width : 400px) {
   .education-content .content-boxes .box-one .one {
-    width: 300px;
+    width: 270px;
   }
 }
 .education-content .content-boxes .box-one:hover .one {
@@ -994,6 +996,13 @@ footer .copyRight {
 .item-one img:hover {
   scale: 1.1;
 }
+@media (max-width : 400px) {
+  .item-one img {
+    width: 300px;
+    height: 300px;
+    transition: 300ms;
+  }
+}
 @media (max-width : 500px) {
   .item-one img:hover {
     scale: 1;
@@ -1011,6 +1020,11 @@ footer .copyRight {
   justify-content: space-around;
   align-items: center;
   margin: 80px 0;
+}
+@media (max-width : 400px) {
+  .instruction-container .one video {
+    width: 320px;
+  }
 }
 .instruction-container .one .right {
   display: flex;
